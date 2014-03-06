@@ -40,5 +40,15 @@ def output():
         print('Correct')
     else:
         print('Wrong. Correct answer was', actual)
+    end_input = input('Press enter to try again or type exit to quit ')
+    if end_input == 'exit':
+        print('Adios!')
+        exit()
+    else:
+        output()
+
+
+
+
 
 output()
