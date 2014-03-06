@@ -49,6 +49,6 @@ def output():
 
 
 
-
-
 output()
+
+#TODO add 'show stats' option
