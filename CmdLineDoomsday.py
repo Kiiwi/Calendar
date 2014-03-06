@@ -47,8 +47,7 @@ def output():
     else:
         output()
 
-
-
-output()
+if __name__ == '__main__':
+    output()
 
 #TODO add 'show stats' option
